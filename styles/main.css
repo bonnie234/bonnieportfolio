@@ -631,6 +631,7 @@ section p {
   padding-right: 3rem;
   border-bottom: 1px solid #B9C7D1;
 }
+
 .testing img {
   width: initial;
   height: auto;
@@ -1091,10 +1092,11 @@ strong {
   justify-content: space-around;
   flex-direction: row;
   /*padding-bottom: 10rem;*/
+}
 
 
 .iteration img{
-  padding: 5rem 2rem;
+  padding: 5rem .5rem;
 }
 
 .land {
@@ -1141,9 +1143,11 @@ strong {
 }*/
 
 .testing img{
-  padding: 1rem 2rem;
+  padding: 1rem .5rem;
   max-height: auto;
-  max-width: auto;
+  max-width:100%;
+  align-self: start;
+
 }
 
 .h {
