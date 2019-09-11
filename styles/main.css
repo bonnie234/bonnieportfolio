@@ -623,6 +623,21 @@ section p {
      border-top: 1px solid #B9C7D1;
 }
 
+.testing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5rem;
+  padding-right: 3rem;
+  border-bottom: 1px solid #B9C7D1;
+}
+.testing img {
+  width: initial;
+  height: auto;
+  margin: 2rem;
+  position: relative;
+}
+
 .iteration img{
   margin: 0 3rem 5rem 3rem;
 }
@@ -1067,7 +1082,7 @@ strong {
 }*/
 
 .slidehi {
-  margin-left: 40%;
+  margin-left: 25%;
 }
 
 .iteration{
@@ -1075,7 +1090,8 @@ strong {
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: row;
-}
+  /*padding-bottom: 10rem;*/
+
 
 .iteration img{
   padding: 5rem 2rem;
@@ -1086,6 +1102,14 @@ strong {
   margin:0 auto;
   width: 1150px;
 }
+
+/*.testing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 12rem;
+  border-bottom: 1px solid #B9C7D1;
+}*/
 
 .purchase {
   border-bottom:1px solid #B9C7D1;
@@ -1333,6 +1357,7 @@ strong {
 .iteration img {
   padding: 10rem 2rem;
 }
+
 }
 
 @media screen and (min-width: 120rem) {
@@ -1355,6 +1380,8 @@ strong {
     flex-wrap: wrap;
     padding: 1rem 1rem;
   }
+
+
   /*.sectionbox{
       margin: 0 10%;
   }
