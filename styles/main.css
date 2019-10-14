@@ -89,6 +89,7 @@ header {
   color: #000508;
   padding: .5rem 2rem;
   text-decoration: none;
+  background-color: #fff .5;
 }
 
 .home {
@@ -122,24 +123,24 @@ ul#top-navigation li{
 
 .bonpic {
   grid-area: bonpic;
-    display: inline-block;
+  display: inline-block;
   min-width: 25rem;
   height: 23rem;
   opacity: 0.6;
 }
 
 .hero-text {
-    background: url(../images/bonnie.jpg);
+    background: url(../images/bonnie1.jpg);
     background-repeat: no-repeat;
     max-width: 90rem;
     max-height: 23rem;
-    padding-left: 13rem;
+    padding-left: 15rem;
     padding-right: 1rem;
     grid-area: hero-text;
     grid-template-columns: 2;
     grid-auto-rows: 1;
 
-    border: .75rem solid #F05DBD;
+    border: 1rem solid #025E4F;
   }
 
   .hero-text h3 {
@@ -154,52 +155,152 @@ ul#top-navigation li{
     color: #0C3F60;
 }
 
-  .mainprojects {
+  .mainprojects h2{
     text-align: center;
+    font: 2.4rem/150% "Muli", sans-serif;
+    font-weight: 600;
+    color: #0C3F60;
+    padding-top: 9rem;
     /*grid-area: mp;*/
   }
 
-  .mainprojects h2 a:hover {
+
+  .main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 8rem auto;
+
+  }
+
+  /*  .mainprojects h2 a:hover {
     color: inherit;
     font-weight: inherit;
   }
 
-  .mainprojects h2 a {
-    color: inherit;
-    vertical-align: top;
-    float: none;
-  }
 
-  .main {
+.main {
     display: flex;
     flex-direction: column;
     margin: 8rem auto;
   }
 
-  #description {
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-  }
+.project1, .project2{
 
-.project1, .project2 {
-  background:url(..images/instock/headerpicture.png) contain;
   background-color: #F7FAFB;
   border-radius: .5rem .5rem .5rem .5rem;
   height: 23rem;
   width: 30rem;
   text-align: center;
   margin: 4rem;
+  position: relative;
+}*/
+
+.view {
+    width: 300px;
+    height: 230px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center;
+}
+.view .mask {
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.view img {
+    display: block;
+    position: relative;
+}
+.view h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+}
+.view p {
+    font-family: "Muli", sans-serif;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+.view a.info {
+  display: inline-block;
+  border-radius: 2rem;
+  padding: 1rem 6rem;
+  width: 20rem;
+  font: 1.4rem/150% "Muli", sans-serif;
+  font-weight: 700;
+  color: #000508;
+  border: 1px solid #57BFAF;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+
+}
+.view a.info:hover {
+  background: #57BFAF;
+  color: #000508;
+}
+.project img {
+	transition: all 0.4s ease-in-out 0.2s;
+    opacity: 1;
+}
+.project .mask {
+	background-color: rgba(0,0,0,0.8);
+	opacity: 0;
+	transform: scale(0) rotate(-180deg);
+	transition: all 0.4s ease-in;
+    border-radius: 0px;
+}
+.project h2 {
+    opacity: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+	transition: all 0.5s ease-in-out;
+}
+.project p {
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.project a.info {
+    opacity: 0;
+  	transition: all 0.5s ease-in-out;
+}
+.project:hover .mask {
+	opacity: 1;
+	transform: scale(1) rotate(0deg);
+	transition-delay: 0.2s;
+}
+.project:hover img 	  {
+	transform: scale(0);
+    opacity: 0;
+	transition-delay: 0s;
+}
+.project:hover h2,
+.project:hover p,
+.project:hover a.info{
+    opacity: 1;
+    transition-delay: 0.5s;
 }
 
-.project1{
-  background:url(..images/recbookheader3.jpg) contain;
-}
-
-.project h3{
-    padding-top: 3rem;
-}
-
-.button {
+.button{
   border-radius: 2rem;
   padding: 1rem 6rem;
   width: 20rem;
@@ -212,7 +313,7 @@ ul#top-navigation li{
   text-align: center;
 }
 
-.button:hover {
+.button:hover{
   background: #57BFAF;
   color: #000508;
 }
