@@ -83,13 +83,14 @@ header {
     margin-bottom: 1.3rem;
 }
 
+
 .navbar-link {
   font: 1.6rem/150% "Muli", sans-serif;
   font-weight: 300;
   color: #000508;
   padding: .5rem 2rem;
   text-decoration: none;
-  background-color: #fff .5;
+
 }
 
 .home {
@@ -228,7 +229,7 @@ ul#top-navigation li{
     position: relative;
     font-size: 17px;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0);
     margin: 20px 0 0 0;
 }
 .view p {
@@ -246,7 +247,7 @@ ul#top-navigation li{
   width: 20rem;
   font: 1.4rem/150% "Muli", sans-serif;
   font-weight: 700;
-  color: #000508;
+  color: #ffffff;
   border: 1px solid #57BFAF;
   text-decoration: none;
   justify-content: center;
@@ -315,7 +316,7 @@ ul#top-navigation li{
 
 .button:hover{
   background: #57BFAF;
-  color: #000508;
+  color: #ffffff;
 }
 
 footer {
