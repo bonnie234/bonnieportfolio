@@ -117,7 +117,7 @@ ul#top-navigation li{
     height: 23rem;*/
     max-width: 100%;
     display: grid;
-    height: 70rem;
+    height: 60rem;
     align-content: center;
     margin: -10rem, -10rem;
   }
@@ -202,7 +202,7 @@ ul#top-navigation li{
     height: 230px;
     margin: 10px;
     float: left;
-    border: 10px solid #fff;
+    /*border: 10px solid #fff;*/
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -224,19 +224,19 @@ ul#top-navigation li{
 }
 .view h3 {
     text-transform: uppercase;
-    color: #fff;
+    color: #000508;
     text-align: center;
     position: relative;
     font-size: 17px;
     padding: 10px;
-    background: rgba(0, 0, 0, 0);
+    background: #fff;
     margin: 20px 0 0 0;
 }
 .view p {
     font-family: "Muli", sans-serif;
     font-size: 12px;
     position: relative;
-    color: #fff;
+    color: #000508;
     padding: 10px 20px 20px;
     text-align: center;
 }
@@ -247,7 +247,7 @@ ul#top-navigation li{
   width: 20rem;
   font: 1.4rem/150% "Muli", sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: #000508;
   border: 1px solid #57BFAF;
   text-decoration: none;
   justify-content: center;
@@ -263,7 +263,7 @@ ul#top-navigation li{
     opacity: 1;
 }
 .project .mask {
-	background-color: rgba(0,0,0,0.8);
+	background-color: #fff;
 	opacity: 0;
 	transform: scale(0) rotate(-180deg);
 	transition: all 0.4s ease-in;
