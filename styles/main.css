@@ -117,7 +117,7 @@ ul#top-navigation li{
     height: 23rem;*/
     max-width: 100%;
     display: grid;
-    height: 60rem;
+    height: 50rem;
     align-content: center;
     margin: -10rem, -10rem;
   }
@@ -140,7 +140,6 @@ ul#top-navigation li{
     grid-area: hero-text;
     grid-template-columns: 2;
     grid-auto-rows: 1;
-
     border: 1rem solid #025E4F;
   }
 
@@ -448,6 +447,11 @@ a:hover {
   width: 60%;
   margin: 10rem auto 2rem auto;
   display: block;
+}
+
+#headerimagebb {
+  margin: 5rem auto;
+
 }
 
 #viewbutton1 {
