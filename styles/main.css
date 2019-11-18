@@ -134,7 +134,7 @@ ul#top-navigation li{
     background: url(../images/bonnie1.jpg);
     background-repeat: no-repeat;
     max-width: 90rem;
-    max-height: 23rem;
+    max-height: 33rem;
     padding-left: 15rem;
     padding-right: 1rem;
     grid-area: hero-text;
@@ -451,7 +451,6 @@ a:hover {
 
 #headerimagebb {
   margin: 5rem auto;
-
 }
 
 #viewbutton1 {
