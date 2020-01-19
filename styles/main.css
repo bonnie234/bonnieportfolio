@@ -83,14 +83,12 @@ header {
     margin-bottom: 1.3rem;
 }
 
-
 .navbar-link {
   font: 1.6rem/150% "Muli", sans-serif;
   font-weight: 300;
   color: #000508;
   padding: .5rem 2rem;
   text-decoration: none;
-
 }
 
 .home {
@@ -105,52 +103,44 @@ ul#top-navigation li{
   border-bottom: .7rem solid #57BFAF;
 }
 
+/*.hero {
+  position: relative;
+  text-align: left;
+  margin: -10rem, -10rem;
+  max-height: 30rem;
+  max-width: 100vw;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  max-width: 50rem;
+}*/
 .hero {
-    background: url(../images/ombre2.png);
+    background: url(../images/ombre3.png);
     background-color: #F4FBFF;
-    /*background-repeat: no-repeat;
-    background-size: 100%, 100%;*/
-    /*background-position: center;*/
-  /*  max-height: 23rem;
-    max-width: 106rem;*/
-    text-align: left;
-    /*margin: 0 auto 0 auto;
-    height: 23rem;*/
-    max-width: 100%;
-    display: flex;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
+    position: relative;
     height: 30rem;
-  /*  align-content: left;*/
     margin: -10rem, -10rem;
   }
 
-/*.bonpic {
-  grid-area: bonpic;
-  display: inline-block;
-  min-width: 25rem;
-  height: 23rem;
-  opacity: 0.6;
-}*/
-
-.hero-text {
-  /*  background: url(../images/bonnie1.jpg);
-    background-repeat: no-repeat;*/
-    max-width: 75rem;
-    max-height: 23rem;
-  /*  padding-left: 15rem;
-    padding-right: 1rem;*/
+.hero-text h3{
+    max-width: 50rem;
+    height: auto;
+    padding-bottom: 2rem;
+    font-weight: bold;
+    position: absolute;
+    top: calc(50% - 6rem);
   /*  grid-area: hero-text;
     grid-template-columns: 1;
     grid-auto-rows: 1;
-    border: 1rem solid #025E4F;*/
-    padding-bottom: 2rem;
-    margin: 0 -15;
-
-  }
-
-  /*.hero-text h3 {
+    border: 1rem solid #025E4F;
     padding-top: 2rem;
-    vertical-align: middle;
-  }*/
+    vertical-align: middle;*/
+  }
 
 .title {
     margin: 0 auto;
@@ -159,7 +149,8 @@ ul#top-navigation li{
     color: #0C3F60;
 }
 
-  .mainprojects h2{
+
+  .mainprojects h2 {
     margin: 0 20rem;
     font: 2.4rem/150% "Muli", sans-serif;
     font-weight: 600;
@@ -168,7 +159,6 @@ ul#top-navigation li{
     padding-bottom: 5rem;
     /*grid-area: mp;*/
   }
-
 
   .main {
     text-align: center;
@@ -180,12 +170,10 @@ ul#top-navigation li{
     padding-bottom: 5rem;
   }
 
-
   /*  .mainprojects h2 a:hover {
     color: inherit;
     font-weight: inherit;
   }
-
 
 .main {
     display: flex;
@@ -194,7 +182,6 @@ ul#top-navigation li{
   }
 
 /*.project1, .project2{
-
   background-color: #F7FAFB;
   border-radius: .5rem .5rem .5rem .5rem;
   height: 23rem;
@@ -217,6 +204,7 @@ ul#top-navigation li{
     cursor: default;
     background: #fff url(../images/bgimg.jpg) no-repeat center center;
 }
+
 .view .mask {
     width: 300px;
     height: 230px;
@@ -276,6 +264,7 @@ ul#top-navigation li{
 	transition: all 0.4s ease-in;
     border-radius: 0px;
 }
+
 .project h2 {
     opacity: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -283,19 +272,23 @@ ul#top-navigation li{
     margin: 20px 40px 0px 40px;
 	transition: all 0.5s ease-in-out;
 }
+
 .project p {
 	opacity: 0;
 	transition: all 0.5s ease-in-out;
 }
+
 .project a.info {
     opacity: 0;
   	transition: all 0.5s ease-in-out;
 }
+
 .project:hover .mask {
 	opacity: 1;
 	transform: scale(1) rotate(0deg);
 	transition-delay: 0.2s;
 }
+
 .project:hover img 	  {
 	transform: scale(0);
     opacity: 0;
@@ -739,7 +732,6 @@ section p {
      border-top: 1px solid #B9C7D1;
 }
 
-
 .iteration{
   display: flex;
   flex-wrap: wrap;
@@ -747,7 +739,6 @@ section p {
   flex-direction: row;
   /*padding-bottom: 10rem;*/
 }
-
 
 .iteration img{
   padding: 5rem .5rem;
@@ -819,8 +810,7 @@ section p {
   background-repeat: no-repeat;
   height: 23rem;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 50%;
 }
 
@@ -859,7 +849,6 @@ strong {
   line-height: 3rem;
   padding: 1% 0;
 /*  background-color: #F9F4F4;*/
-
 }
 
 /*.aboutpic2 {
@@ -867,11 +856,11 @@ strong {
   background-size: 100% 100%;
 }*/
 
-.about2 {
+/*.about2 {
   background-color: #ffffff;
   opacity: 0.9;
   filter: alpha(opacity=90); /* For IE8 and earlier */
-}
+/*} */
 
 .about2 p {
   margin: 0 5%;
@@ -1124,12 +1113,36 @@ Arrows
     margin: 1rem auto;
   }
 
+  .mainprojects h2 {
+        margin: 0 2rem;
+    }
+
+    .hero-text {
+      margin: 0 2rem;
+    }
+
+    .main {
+      margin: 0 2rem;
+    }
+
+    .hero {
+        background: url(../images/ombre4.png);
+        background-color: #F4FBFF;
+       background-repeat: no-repeat;
+        background-size: 100%, 100%;
+        background-position: center;
+        position: relative;
+        height: 30rem;
+        margin: -10rem, -10rem;
+      }
+
+
  .name {
     display: none;
  }
 
-  .hero-text{
-    vertical-align: middle;
+  .title {
+    margin: 0 .5rem;
   }
 
   .column {
@@ -1172,6 +1185,23 @@ Arrows
 
 @media screen and (min-width:60rem){
 
+  .container {
+     width: 100%;
+     margin: auto 1rem;
+   }
+
+   .mainprojects h2 {
+         margin: 0 20rem;
+     }
+
+     .hero-text {
+       margin: 0 20rem;
+     }
+
+     .main {
+       margin: 0 20rem;
+     }
+
   .logoname {
     margin: 1rem auto;
     display: flex;
@@ -1192,31 +1222,25 @@ Arrows
     font-size: 3rem;
   }
 
-.hero {
-/*  margin-top: 15rem;*/
-}
-
-  .hero-text {
-    padding-left: 18rem;
-    padding-top: 7rem;
-}
-
-.hero-text h3 {
-  padding-top: 0;
-}
 
 #slogan {
   padding-top: 2rem;
 }
 
-.main {
-  display: flex;
-  flex-direction: row;
-}
+
 
 .mainprojects {
-    padding-top: 9rem;
-}
+      padding-top: 9rem;
+      margin: auto 0;
+    }
+
+
+
+    .main {
+      display: flex;
+      flex-direction: row;
+
+    }
 
 /*.logoname {
   grid-template-columns: 3fr, 3fr, 3fr;
@@ -1231,11 +1255,6 @@ Arrows
   "bonpic . "
   ". hero-text";
 }*/
-
-.container {
-   width: 100%;
-   margin: 0 auto;
- }
 
  .sectionbox {
      margin: 0 10%;
@@ -1458,7 +1477,6 @@ Arrows
   width: 1150px;
 }
 
-
 .access{
   display: flex;
   flex-wrap: wrap;
@@ -1526,6 +1544,24 @@ Arrows
 }
 
 @media screen and (min-width: 768px) {
+
+  .container {
+     width: 100%;
+   }
+
+
+   .mainprojects h2 {
+         margin: 0 20rem;
+     }
+
+     .hero-text {
+       margin: 0 20rem;
+     }
+
+     .main {
+       margin: 0 20rem;
+     }
+
     .navbar {
         display: flex;
         justify-content: space-between;
@@ -1534,7 +1570,6 @@ Arrows
         align-items: center;
     }
 
-
     .main-nav {
         display: flex;
         margin-right: 30px;
@@ -1561,7 +1596,7 @@ Arrows
     }
 
     .name{
-      padding-top: 9%;
+      display: none;
     }
 
     .main-nav {
@@ -1571,27 +1606,9 @@ Arrows
         justify-content: flex-end;
     }
 
-    .main-nav li {
-        margin: auto 0;
-        padding-top: 9%;
-    }
-
-    .nav-links {
-        margin-left: 40px;
-    }
-
-    .logo {
-        margin-top: 1rem;
-    }
-
-    .logoname{
-      align-items: left;
-      margin: -1rem;
-    }
-
-    .name{
-      padding-top: 9%;
-    }
+.hero {
+  width: 100vw;
+}
 
     .iteration{
       display: flex;
@@ -1634,6 +1651,22 @@ Arrows
 
 @media screen and (min-width: 90rem) {
 
+  .container {
+     width: 100%;
+   }
+
+   .mainprojects h2 {
+         margin: 0 20rem;
+     }
+
+     .hero-text {
+       margin: 0 20rem;
+     }
+
+     .main {
+       margin: 0 20rem;
+     }
+
    .navbar-toggle {
        display: none;
     }
@@ -1648,10 +1681,7 @@ Arrows
     padding-bottom:1px;
 }
 
-  /*@media screen and (min-width: 90rem) {
-.container {
-  width: 100%;
-  }
+
   /*  width: 89rem;*/
 
   .sectionbox {
@@ -1710,9 +1740,11 @@ Arrows
 }
 
 @media screen and (min-width: 120rem) {
+
   .container {
-    width: 119rem;
-  }
+     width: 100%;
+     margin: auto 1rem;
+   }
 
   .iteration{
     display: flex;
@@ -1730,6 +1762,17 @@ Arrows
     padding: 1rem 1rem;
   }
 
+  .mainprojects h2 {
+        margin: 0 20rem;
+    }
+
+    .hero-text {
+      margin: 0 20rem;
+    }
+
+    .main {
+      margin: 0 20rem;
+    }
 
   /*.sectionbox{
       margin: 0 10%;
