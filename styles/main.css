@@ -452,7 +452,7 @@ a:hover {
   display: block;
 }
 #headerimagebb {
-  width: auto;
+  width: 70%;
   margin: 10rem auto 2rem auto;
   display: block;
 }
@@ -728,6 +728,13 @@ section p {
   padding-bottom: 4rem;
 }
 
+#gym {
+  width: 13rem;
+  height: auto;
+  padding: 1rem;
+  border-color: red;
+
+}
 .testline {
      border-top: 1px solid #B9C7D1;
 }
