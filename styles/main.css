@@ -813,11 +813,11 @@ section p {
 }
 
 .aboutpic {
-  background: url(../images/bonnie1.jpg);
+  background: url(../images/bonnie2.jpg);
   background-repeat: no-repeat;
-  height: 23rem;
+  height: 30rem;
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto;
   width: 50%;
 }
 
