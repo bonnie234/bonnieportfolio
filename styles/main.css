@@ -805,20 +805,21 @@ section p {
   padding-bottom: 4rem;
 }
 
-.about {
 
+.about h2 {
   padding-bottom: .5rem;
   margin: 0 auto;
+  width: 40%;
   /*margin-left: 10%;*/
 }
 
 .aboutpic {
-  background: url(../images/bonnie2.jpg);
+/*  background: url(../images/bonnie2.jpg);*/
   background-repeat: no-repeat;
   height: 30rem;
   display: block;
   margin: 1rem auto;
-  width: 50%;
+
 }
 
 /*.aboutpic1 {
@@ -847,6 +848,7 @@ strong {
 
 .aboutcontainer h2 {
   text-align: center;
+  margin: 0 5%;
 }
 
 .about1 p {
