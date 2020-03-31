@@ -452,7 +452,7 @@ a:hover {
   display: block;
 }
 #headerimagebb {
-  width: 80rem;
+  width: 0 auto;
   margin: 10rem auto 2rem auto;
   display: block;
 }
